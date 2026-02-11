@@ -1,4 +1,1 @@
-GRADIENT CLOCK PROJECT
--------------------------
-
-A customizable background with a clock for studying
+Just getting started with Git!
