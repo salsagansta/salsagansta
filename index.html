@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aura Clock DIY</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" />
+</head>
+
+<body>
+  <nav id="top">
+    <button id="menu">
+      <span class="material-symbols-outlined">
+        home
+      </span>
+    </button>
+  </nav>
+
+  <div id="side-menu">
+    <h2>Gradients</h2>
+<button class="color-btn"
+  data-c1="#4d194d"
+  data-c2="#272640"
+  data-c3="#144552"
+  data-c4="#006466">
+  Midnight
+</button>
+
+<button class="color-btn"
+  data-c1="#4158D0"
+  data-c2="#e560dc"
+  data-c3="#ffb374"
+  data-c4="#ef5fef">
+  Pink Lemonade
+</button>
+
+<button class="color-btn"
+  data-c1="#007f5f"
+  data-c2="#aacc00"
+  data-c3="#dddf00"
+  data-c4="#ffff3f">
+  Forest
+</button>
+
+<button class="color-btn"
+  data-c1="#370617"
+  data-c2="#d00000"
+  data-c3="#f48c06"
+  data-c4="#FFFF3A">
+  Ember
+</button>
+  </div>
+
+  <main>
+  <div id="clock">
+    <h1 id="message"></h1>
+    <h1 id="time">
+    </h1>
+  </div>
+  </main>
+
+  <script src="background.js" type="text/javascript"></script>
+  <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
